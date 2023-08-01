@@ -88268,7 +88268,7 @@ $S:193}
 A.an9.prototype={
 $2(a,b){var s,r=null,q=b.b
 if(q==null)return B.hY
-s="https://mysave.app/join/"+A.h(J.as(J.as(J.aKW(q),"data"),"token"))
+s="https://mysave.app/#/join/"+A.h(J.as(J.as(J.aKW(q),"data"),"token"))
 return A.iY(A.a([A.eS(new A.C7(s,-1,320,!1,r),300,300),B.To,A.rf(!0,new A.bS(B.bW,A.aDI(s),r),B.af,!0),A.ax_(r,B.Er,r,new A.an8(s,a),r,r)],t.p),B.aG,B.aW,B.co)},
 $S:534}
 A.an8.prototype={
