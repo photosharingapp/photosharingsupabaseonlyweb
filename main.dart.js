@@ -89489,14 +89489,14 @@ $0(){var s=this.a
 return s.zx(s.a.d)},
 $S:0}
 A.anK.prototype={
-$0(){var s,r=A.aD(t.am),q=this.a
-if(J.j0(q.d)){q=J.ah(q.d,"url")
-s=document.createElement("a")
-s.href=q
-s.download=q
-s.target="_blank"
-s.click()
-r.D(0,A.bX([null],t.H))}return r},
+$0(){var s,r,q=A.aD(t.am),p=this.a
+if(J.j0(p.d)){s="https://api.mysave.app/storage/v1/object/public/"+J.ah(p.d,"url")
+r=document.createElement("a")
+r.href=s
+r.download=s
+r.target="_blank"
+r.click()
+q.D(0,A.bX([null],t.H))}return q},
 $S:0}
 A.qt.prototype={
 ai(){return new A.Wk(t.PG.a($.ph().m0("supabase_authentication",!1,t.z)),B.i)}}
