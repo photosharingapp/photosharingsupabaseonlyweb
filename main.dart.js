@@ -9634,7 +9634,7 @@ _.d=d
 _.e=e
 _.f=f},
 aIx(a,b,c){var s=A.a0(a),r=s.i("dI<1,a5<i_>>")
-return A.qd(A.as(new A.dI(new A.aT(a,new A.avJ(),s.i("aT<1>")),new A.avK(!1,!1),r),!0,r.i("m.E")),t.hD)},
+return A.qd(A.as(new A.dI(new A.aT(a,new A.avJ(),s.i("aT<1>")),new A.avK(!1,!0),r),!0,r.i("m.E")),t.hD)},
 avB(a,b,c){var s=0,r=A.J(t.hD),q,p,o
 var $async$avB=A.F(function(d,e){if(d===1)return A.G(e,r)
 while(true)switch(s){case 0:p=a.a
@@ -26545,7 +26545,7 @@ aXp(a,a0,a1){var s=0,r=A.J(t.z),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$Jp=A.F(function(a2,a3){if(a2===1)return A.G(a3,r)
 while(true)switch(s){case 0:c={}
 s=2
-return A.z($.aJQ().fh(!0,B.Ei),$async$Jp)
+return A.z($.aJQ().fh(!0,B.Ei,!0),$async$Jp)
 case 2:b=a3
 s=b!=null?3:4
 break
@@ -44947,7 +44947,7 @@ $2$onError(a,b){return this.E(this,A.K("$2$onError","$2$onError",0,[a,b],["onErr
 $2$chunkCallback(a,b){return this.E(this,A.K("$2$chunkCallback","$2$chunkCallback",0,[a,b],["chunkCallback"],0))},
 $4$allowUpscaling$targetHeight$targetWidth(a,b,c,d){return this.E(this,A.K("$4$allowUpscaling$targetHeight$targetWidth","$4$allowUpscaling$targetHeight$targetWidth",0,[a,b,c,d],["allowUpscaling","targetHeight","targetWidth"],0))},
 $3$children$mainAxisSize(a,b,c){return this.E(this,A.K("$3$children$mainAxisSize","$3$children$mainAxisSize",0,[a,b,c],["children","mainAxisSize"],0))},
-$2$allowMultiple$type(a,b){return this.E(this,A.K("$2$allowMultiple$type","$2$allowMultiple$type",0,[a,b],["allowMultiple","type"],0))},
+$3$allowMultiple$type$withData(a,b,c){return this.E(this,A.K("$3$allowMultiple$type$withData","$3$allowMultiple$type$withData",0,[a,b,c],["allowMultiple","type","withData"],0))},
 $4$displayFeatures$padding$viewInsets$viewPadding(a,b,c,d){return this.E(this,A.K("$4$displayFeatures$padding$viewInsets$viewPadding","$4$displayFeatures$padding$viewInsets$viewPadding",0,[a,b,c,d],["displayFeatures","padding","viewInsets","viewPadding"],0))},
 $2$viewInsets$viewPadding(a,b){return this.E(this,A.K("$2$viewInsets$viewPadding","$2$viewInsets$viewPadding",0,[a,b],["viewInsets","viewPadding"],0))},
 $1$colorScheme(a){return this.E(this,A.K("$1$colorScheme","$1$colorScheme",0,[a],["colorScheme"],0))},
@@ -48284,9 +48284,9 @@ q[6]=h+q[6]>>>0
 q[7]=g+q[7]>>>0}}
 A.asa.prototype={}
 A.a7c.prototype={
-fh(a,b){return this.apg(!0,b)},
-apg(a,b){var s=0,r=A.J(t.fW),q,p=this,o,n,m,l,k,j,i
-var $async$fh=A.F(function(c,d){if(c===1)return A.G(d,r)
+fh(a,b,c){return this.apg(!0,b,!0)},
+apg(a,b,c){var s=0,r=A.J(t.fW),q,p=this,o,n,m,l,k,j,i
+var $async$fh=A.F(function(d,e){if(d===1)return A.G(e,r)
 while(true)switch(s){case 0:i={}
 b!==B.Ej
 o=new A.a7($.ad,t.SP)
@@ -48312,7 +48312,7 @@ J.axl(p.a).D(0,l)
 l.click()
 s=3
 return A.z(o,$async$fh)
-case 3:j=d
+case 3:j=e
 q=j==null?null:new A.nq(j)
 s=1
 break
@@ -48368,8 +48368,8 @@ A.uD.prototype={
 F(){return"FileType."+this.b}}
 A.a74.prototype={}
 A.a75.prototype={
-fh(a,b){return this.xv(b,!0,!0,null,null,!1,!1)},
-xv(a,b,c,d,e,f,g){return this.a8y(a,!0,!0,d,e,!1,!1)},
+fh(a,b,c){return this.xv(b,!0,!0,null,null,!0,!1)},
+xv(a,b,c,d,e,f,g){return this.a8y(a,!0,!0,d,e,!0,!1)},
 a8y(a,b,a0,a1,a2,a3,a4){var s=0,r=A.J(t.fW),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$xv=A.F(function(a5,a6){if(a5===1){o=a6
 s=p}while(true)switch(s){case 0:d=A.aYj(a)
@@ -48378,7 +48378,7 @@ p=4
 i=$.aPk
 if(i!=null)i.av(0)
 s=7
-return A.z($.aL4().AM(d,A.ao(["allowMultipleSelection",!0,"allowedExtensions",a1,"allowCompression",!0,"withData",!1],t.N,t.X),t.f),$async$xv)
+return A.z($.aL4().AM(d,A.ao(["allowMultipleSelection",!0,"allowedExtensions",a1,"allowCompression",!0,"withData",!0],t.N,t.X),t.f),$async$xv)
 case 7:n=a6
 if(n==null){q=null
 s=1
@@ -48408,12 +48408,12 @@ case 6:case 1:return A.H(q,r)
 case 2:return A.G(o,r)}})
 return A.I($async$xv,r)}}
 A.a77.prototype={
-fh(a,b){return this.apf(!0,b)},
-apf(a,b){var s=0,r=A.J(t.fW),q,p=this,o,n,m,l,k,j,i
-var $async$fh=A.F(function(c,d){if(c===1)return A.G(d,r)
+fh(a,b,c){return this.apf(!0,b,!0)},
+apf(a,b,c){var s=0,r=A.J(t.fW),q,p=this,o,n,m,l,k,j,i
+var $async$fh=A.F(function(d,e){if(d===1)return A.G(e,r)
 while(true)switch(s){case 0:s=3
 return A.z(A.yl("osascript"),$async$fh)
-case 3:l=d
+case 3:l=e
 k=p.An(b,null)
 j=A.dR("","\\","\\\\")
 j=A.dR(j,'"','\\"')
@@ -48423,13 +48423,13 @@ n=(k.length!==0?"choose file "+("of type {"+k+"} "):"choose file ")+"with multip
 o.push(n+('with prompt "'+j+'"'))
 s=4
 return A.z(A.JC(l,o),$async$fh)
-case 4:m=d
+case 4:m=e
 if(m==null){q=null
 s=1
 break}i=A
 s=5
-return A.z(A.aIx(p.BO(m),!1,!1),$async$fh)
-case 5:q=new i.nq(d)
+return A.z(A.aIx(p.BO(m),!1,!0),$async$fh)
+case 5:q=new i.nq(e)
 s=1
 break
 case 1:return A.H(q,r)}})
@@ -48471,23 +48471,23 @@ return b instanceof A.nq&&A.cM(b.a,this.a)},
 gu(a){return J.p(this.a)},
 k(a){return"FilePickerResult(files: "+A.h(this.a)+")"}}
 A.a76.prototype={
-fh(a,b){return this.ape(!0,b)},
-ape(a,b){var s=0,r=A.J(t.fW),q,p=this,o,n,m,l,k
-var $async$fh=A.F(function(c,d){if(c===1)return A.G(d,r)
+fh(a,b,c){return this.ape(!0,b,!0)},
+ape(a,b,c){var s=0,r=A.J(t.fW),q,p=this,o,n,m,l,k
+var $async$fh=A.F(function(d,e){if(d===1)return A.G(e,r)
 while(true)switch(s){case 0:s=3
 return A.z(p.pp(),$async$fh)
-case 3:o=d
+case 3:o=e
 n=A.aOi(o)
 m=n.An(b,null)
 s=4
 return A.z(A.JC(o,n.Ks("",m,"",!0,!1)),$async$fh)
-case 4:l=d
+case 4:l=e
 if(l==null){q=null
 s=1
 break}k=A
 s=5
-return A.z(A.aIx(n.BO(l),!1,!1),$async$fh)
-case 5:q=new k.nq(d)
+return A.z(A.aIx(n.BO(l),!1,!0),$async$fh)
+case 5:q=new k.nq(e)
 s=1
 break
 case 1:return A.H(q,r)}})
