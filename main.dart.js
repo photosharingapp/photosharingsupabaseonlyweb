@@ -26523,7 +26523,7 @@ this.b=b
 this.c=c},
 aYM(a,b){if(a.length>b)return B.c.O(a,0,b)
 else return a},
-aIJ(a,b){var s=null,r=J.a8(b,"url"),q=B.b.gM(r.split(".")),p=q==="jpg"||q==="jpeg"||q==="png"||q==="gif",o=B.b.gM(r.split("/"))
+aIJ(a,b){var s=null,r=J.a8(b,"url"),q=B.b.gM(r.toLowerCase().split(".")),p=q==="jpg"||q==="jpeg"||q==="png"||q==="gif",o=B.b.gM(r.split("/"))
 if(p)return A.fx(new A.uV(A.aRZ(s,s,new A.qN("https://api.mysave.app/storage/v1/render/image/public/"+r+"?width=500",1,s)),s),s,s)
 return new A.Pd(o.split(".")[0],o.split(".")[1],s)},
 b_3(a,b,c){c.$0()
