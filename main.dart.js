@@ -26523,9 +26523,10 @@ this.b=b
 this.c=c},
 aYM(a,b){if(a.length>b)return B.c.O(a,0,b)
 else return a},
-aIJ(a,b){var s=null,r=J.a8(b,"url"),q=B.b.gM(r.toLowerCase().split(".")),p=q==="jpg"||q==="jpeg"||q==="png"||q==="gif",o=B.b.gM(r.split("/"))
-if(p)return A.fx(new A.uV(A.aRZ(s,s,new A.qN("https://api.mysave.app/storage/v1/render/image/public/"+r+"?width=500",1,s)),s),s,s)
-return new A.Pd(o.split(".")[0],o.split(".")[1],s)},
+aIJ(a,b,c){var s,r,q=null,p=J.a8(b,"url"),o=B.b.gM(p.toLowerCase().split(".")),n=o==="jpg"||o==="jpeg"||o==="png"||o==="gif",m=B.b.gM(p.split("/"))
+if(n){s="https://api.mysave.app/storage/v1/render/image/public/"+p
+r=s+"?width=500"
+return A.fx(new A.uV(A.aRZ(q,q,new A.qN(c?s+"?width=1000":r,1,q)),q),q,q)}return new A.Pd(m.split(".")[0],m.split(".")[1],q)},
 b_3(a,b,c){c.$0()
 return A.aAD(new A.awT(b),a,t.z)},
 a1z(a){var s=0,r=A.J(t.kc),q
@@ -89541,7 +89542,7 @@ return new A.Nv(new A.aig(s),new A.Rx(new A.anI(this.a,o,a),r,!0,!0,!0,p),p,B.at
 $S:540}
 A.anI.prototype={
 $2(a,b){var s=null,r=J.a8(this.b,b),q=this.a
-return A.hh(s,A.KM(A.ha(A.a([A.a6Q(A.hh(s,A.aIJ(q.a.c,r),B.R,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.anH(q,this.c,r),s,s,s,s,s,s))],t.p),B.af,B.ax,B.aS)),B.R,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
+return A.hh(s,A.KM(A.ha(A.a([A.a6Q(A.hh(s,A.aIJ(q.a.c,r,!1),B.R,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.anH(q,this.c,r),s,s,s,s,s,s))],t.p),B.af,B.ax,B.aS)),B.R,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 $S:195}
 A.anH.prototype={
 $0(){var s=this.a.a.c,r=A.h(J.a8(this.c,"id"))
@@ -89590,7 +89591,7 @@ aF(){this.r2(0)
 this.aW()},
 H(a){var s,r=this,q=null,p=A.fx(A.dD(B.e.k(r.f),q,q,q,q,q,q),q,q),o=r.e?B.EN:B.ER,n=t.p
 o=A.pr(A.a([p,A.uU(q,o,q,new A.anQ(r),q,q)],n),B.Ys)
-p=A.hh(q,A.KM(J.j1(r.d)?A.aIJ(r.a.c,r.d):B.i5),B.R,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.anR(r),q,q,q,q,q,q)
+p=A.hh(q,A.KM(J.j1(r.d)?A.aIJ(r.a.c,r.d,!0):B.i5),B.R,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.anR(r),q,q,q,q,q,q)
 if(J.a8(r.d,"meta")!=null){s=J.bc(J.a8(J.a8(r.d,"meta"),"comments"))
 if(s==null)s=0}else s=0
 return A.rp(o,A.aSy(A.ha(A.a([p,B.zf,A.ayx(new A.anS(r),s,!0),A.KM(A.rm(A.a([A.a6Q(A.azd(!0,B.bD,!1,q,A.aJt(),r.r,q,q,q,2,A.aDE(q,B.Rb,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!1,q,q,q,"Comment",q,q,q,q,q,q,q,q,A.uU(q,B.EO,q,new A.anT(r),q,q),q,q,q,q),!0,q,!0,q,!1,q,q,q,q,q,q,q,2,q,q,!1,"\u2022",q,q,q,q,q,!1,q,q,B.fd,q,q,q,q,q,q,q,q,B.b1,q,B.hk,q,q,q))],n),B.af,B.tF,B.aS))],n),B.af,B.ax,B.aS)),q)},
