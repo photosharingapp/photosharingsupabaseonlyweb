@@ -27244,10 +27244,9 @@ break
 case 6:p=$.dW().as
 p===$&&A.b()
 j=A
-i="https://mysave.app/storage/v1/"
 s=8
 return A.u(new A.wk(p.a,p.b,m,p.c).uX(l,3600),$async$a1O)
-case 8:q=new j.EL(i+d,null)
+case 8:q=new j.EL(d,null)
 s=1
 break
 case 7:o=B.b.gP(n.split("/"))
