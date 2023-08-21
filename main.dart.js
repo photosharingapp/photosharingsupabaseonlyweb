@@ -27207,7 +27207,7 @@ case 5:q=j.f9(new i.qo(h.aGx(null,null,new g.nX(d,1)),B.A,null),null,null)
 s=1
 break
 case 4:o=B.b.gR(n.split("/"))
-q=new A.OK(o.split(".")[0],o.split(".")[1],null)
+q=new A.OK(o.split(".")[0],B.b.gR(o.split(".")),null)
 s=1
 break
 case 1:return A.G(q,r)}})
