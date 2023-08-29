@@ -92030,7 +92030,7 @@ A.fK(this.a).fB(0,"/events/"+s,null)},
 $S:7}
 A.uJ.prototype={
 I(a){var s=null,r=t.rK,q=new A.cf(B.j,1,B.ao,-1)
-return A.op(s,new A.bH(B.nr,A.aGP(A.ev(A.a([B.cs,A.azQ("images/logo.png",B.A,Math.min(690,A.bC(a,s,t.w).w.a.a)),B.kQ,B.a_P,B.a_R,B.a_O,B.cs,new A.OQ(new A.aaa(a),s,s,s,A.aFZ(s,s,B.cL,s,s,s,s,s,s,B.j,s,s,B.EN,s,B.TB,s,s,s,s,s),B.p,s,!1,s,!0,B.a_H,s),B.zO,B.a_U,B.cs,A.azQ("images/log_graph_slim.png",B.A,s),B.cs,A.ev(A.ag(new A.a3(B.KJ,new A.aab(),r),!0,r.i("ay.E")),B.R,B.a5,B.aa),B.zO,B.a_T,B.cs,A.azQ("images/dinner_night.webp",B.A,s),B.cs,A.aUp(new A.RQ(q,q,q,q,q,q,B.an),B.La),B.cs,B.a_L,B.hA,B.a_D,B.hA,B.a_K],t.p),B.iK,B.a5,B.aa)),s),s)}}
+return A.op(s,new A.bH(B.nr,A.aGP(A.ev(A.a([B.cs,A.azQ("images/logo.png",B.A,Math.min(690,A.bC(a,s,t.w).w.a.a)),B.kQ,B.a_P,B.a_R,B.a_O,B.cs,new A.OQ(new A.aaa(a),s,s,s,A.aFZ(s,s,B.cL,s,s,s,s,s,s,B.j,s,s,B.EN,s,B.TB,s,s,s,s,s),B.p,s,!1,s,!0,B.a_J,s),B.zO,B.a_U,B.cs,A.azQ("images/log_graph_slim.png",B.A,s),B.cs,A.ev(A.ag(new A.a3(B.KJ,new A.aab(),r),!0,r.i("ay.E")),B.R,B.a5,B.aa),B.zO,B.a_T,B.cs,A.azQ("images/dinner_night.webp",B.A,s),B.cs,A.aUp(new A.RQ(q,q,q,q,q,q,B.an),B.La),B.cs,B.a_L,B.hA,B.a_D,B.hA,B.a_K],t.p),B.iK,B.a5,B.aa)),s),s)}}
 A.aaa.prototype={
 $0(){A.fG(new A.aa9(this.a),t.H)},
 $S:0}
@@ -99114,9 +99114,9 @@ B.W_=new A.h2(B.Ld)
 B.Ad=new A.dl("",18,null,null)
 B.KH=A.a(s([B.Ad,B.Ad]),t.p)
 B.W2=new A.h2(B.KH)
-B.a_J=new A.dl("Total size as per 5MB",18,null,null)
-B.a_I=new A.dl("    100-150MB",18,null,null)
-B.KG=A.a(s([B.a_J,B.a_I]),t.p)
+B.a_I=new A.dl("Total size as per 5MB",18,null,null)
+B.a_H=new A.dl("    100-150MB",18,null,null)
+B.KG=A.a(s([B.a_I,B.a_H]),t.p)
 B.W0=new A.h2(B.KG)
 B.a_F=new A.dl("Total Amount",18,null,null)
 B.a_S=new A.dl("    \u20b912",18,null,null)
@@ -100940,7 +100940,7 @@ B.ZD=new A.o(!0,B.j,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.Zc=new A.o(!0,B.j,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.a_C=new A.dk(B.YR,B.a_g,B.ZX,B.Xl,B.ZP,B.YL,B.a_k,B.XR,B.Yp,B.ZI,B.Xc,B.ZY,B.ZM,B.ZD,B.Zc)
 B.a_D=new A.dl("Don't pay until you go out next time.",35,!0,null)
-B.a_H=new A.dl("Try now",25,null,null)
+B.a_J=new A.dl("Try now for free",25,null,null)
 B.a_K=new A.dl("Our charges are onetime pay.",18,!0,null)
 B.a_L=new A.dl("All for lifetime of storage",18,!0,null)
 B.a_O=new A.dl("with \u20b91/image or $1/GB forever.",18,null,null)
