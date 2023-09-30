@@ -91101,7 +91101,7 @@ $S:86}
 A.aya.prototype={
 $2(a,b){var s,r=null,q=b.b
 if(q==null)return B.dJ
-s="https://mysave.app/#/join/"+A.i(J.a2(J.a2(J.aNN(q),"data"),"token"))
+s="https://web.mysave.app/#/join/"+A.i(J.a2(J.a2(J.aNN(q),"data"),"token"))
 return A.eY(A.a([A.eq(new A.Ca(s,-1,320,!1,r),300,300),B.zN,A.rg(!0,new A.bH(B.bY,A.aGt(s),r),B.ae,!0),A.nz(r,B.FO,r,new A.ay9(s,a),r,r)],t.p),B.R,B.a9,B.c4)},
 $S:548}
 A.ay9.prototype={
