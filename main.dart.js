@@ -91076,7 +91076,7 @@ o.toString
 o=A.aEL(o).f!=="/join/:token"}else o=!1
 if(o){o=q.a.c
 o.toString
-p.E(0,A.c5([A.fG(o).fw(0,"/home",null)],t.H))}return p},
+p.E(0,A.c5([A.fG(o).fw(0,"/login",null)],t.H))}return p},
 $S:109}
 A.OH.prototype={
 I(a){var s=null
