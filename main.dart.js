@@ -28310,15 +28310,15 @@ break
 case 6:case 1:return A.E(q,r)
 case 2:return A.D(o,r)}})
 return A.F($async$ry,r)},
-At(a,b,c){var s=0,r=A.G(t.y),q,p,o
-var $async$At=A.C(function(d,e){if(d===1)return A.D(e,r)
+At(a,b){var s=0,r=A.G(t.y),q,p,o
+var $async$At=A.C(function(c,d){if(c===1)return A.D(d,r)
 while(true)switch(s){case 0:o=A
 s=3
-return A.x(a.CP(b,null,c,null),$async$At)
-case 3:p=o.cF(e.b,0,null)
+return A.x(a.CP(b,null,null,null),$async$At)
+case 3:p=o.cF(d.b,0,null)
 s=4
 return A.x(A.axD(p,B.GC,"_self"),$async$At)
-case 4:q=e
+case 4:q=d
 s=1
 break
 case 1:return A.E(q,r)}})
@@ -89167,20 +89167,19 @@ return A.F($async$C4,r)},
 yd(a,b,c,d){return this.aba(a,b,c,d)},
 aba(a,b,c,d){var s=0,r=A.G(t.PO),q,p=this,o,n,m,l,k
 var $async$yd=A.C(function(e,f){if(e===1)return A.D(f,r)
-while(true)switch(s){case 0:l=t.N
-k=A.ar(["provider",B.b.gP(a.G().split("."))],l,l)
-if(c!=null)k.l(0,"redirect_to",c)
-o=p.ax
-s=o===B.f_?3:4
+while(true)switch(s){case 0:m=t.N
+l=A.ar(["provider",B.b.gP(a.G().split("."))],m,m)
+k=p.ax
+s=k===B.f_?3:4
 break
-case 3:n=A.b__()
+case 3:o=A.b__()
 s=5
-return A.x(p.at.rV("supabase.auth.token-code-verifier",n),$async$yd)
-case 5:m=B.Ct.bf(B.ic.bf(n))
-k.K(0,A.ar(["flow_type",o.b,"code_challenge",B.lW.gfe().bf(m.a).split("=")[0],"code_challenge_method","s256"],l,l))
-case 4:l=A.t9(null,null,k).f
-if(l==null)l=""
-q=new A.Ox(p.e+"/authorize?"+l)
+return A.x(p.at.rV("supabase.auth.token-code-verifier",o),$async$yd)
+case 5:n=B.Ct.bf(B.ic.bf(o))
+l.K(0,A.ar(["flow_type",k.b,"code_challenge",B.lW.gfe().bf(n.a).split("=")[0],"code_challenge_method","s256"],m,m))
+case 4:m=A.t9(null,null,l).f
+if(m==null)m=""
+q=new A.Ox(p.e+"/authorize?"+m)
 s=1
 break
 case 1:return A.E(q,r)}})
@@ -91453,7 +91452,7 @@ var $async$$0=A.C(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:q=$.dS().z
 q===$&&A.b()
 s=2
-return A.x(A.At(q,B.yB,null),$async$$0)
+return A.x(A.At(q,B.yB),$async$$0)
 case 2:return A.E(null,r)}})
 return A.F($async$$0,r)},
 $S:7}
@@ -91623,7 +91622,7 @@ var $async$$0=A.C(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:p=$.dS().z
 p===$&&A.b()
 s=2
-return A.x(A.At(p,B.yB,"https://web.mysave.app/auth/v1/callback"),$async$$0)
+return A.x(A.At(p,B.yB),$async$$0)
 case 2:A.fD(new A.ac0(q.a),t.CE)
 return A.E(null,r)}})
 return A.F($async$$0,r)},
