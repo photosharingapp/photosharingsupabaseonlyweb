@@ -91623,7 +91623,7 @@ var $async$$0=A.C(function(a,b){if(a===1)return A.D(b,r)
 while(true)switch(s){case 0:p=$.dS().z
 p===$&&A.b()
 s=2
-return A.x(A.At(p,B.yB,"https://web.mysave.app"),$async$$0)
+return A.x(A.At(p,B.yB,"https://web.mysave.app/auth/v1/callback"),$async$$0)
 case 2:A.fD(new A.ac0(q.a),t.CE)
 return A.E(null,r)}})
 return A.F($async$$0,r)},
